@@ -1,0 +1,16 @@
+body {font-family: "Arial", "Meiryo", sans-serif; }
+html {font-size: 20px;}
+.blue { color: skyblue;}.pink { color: pink;}
+h1{font-family:'josefin sans',sans-serif;
+font-size: 2rem; /* htmlのfont-sizeが20pxなら、2remは40pxになります */
+letter-spacing: 1.2em; /* 文字の大きさの1.2倍 */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 自由に設定された影 */
+border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+}
+body {
+    text-align: center; /* 全体中央寄せ */
+  }
+  
+  #basic p {
+    font-weight: bold; /* 「侍 太郎」「1990年1月1日」「O型」のみ太字 */
+  }
