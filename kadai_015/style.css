@@ -1,6 +1,6 @@
 body {font-family: "Arial", "Meiryo", sans-serif; }
 html {font-size: 20px;}
-.blue { color: skyblue;}.pink { color: pink;}
+.blue { color: skyblue;}.pink {color: rgb(255, 192, 203);}
 h1{font-family:'josefin sans',sans-serif;
 font-size: 2rem; /* htmlのfont-sizeが20pxなら、2remは40pxになります */
 letter-spacing: 1.2em; /* 文字の大きさの1.2倍 */
