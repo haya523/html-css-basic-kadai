@@ -66,14 +66,13 @@ footer a {
         color: rgb(245, 178, 168);  /* マウスオーバー時の文字色を設定 */
     }
     @media screen and (max-width: 768px) {
-        /* 768px以下の場合 */
-    }
-    .contents h2 {
-        font-size: 30px;
-    }
-    .contents p {
-        font-size: 25px;
-    }
-    #parent {
-        flex-direction: column;
+        .contents h2 {
+            font-size: 30px;
+        }
+        .contents p {
+            font-size: 25px;
+        }
+        #parent {
+            flex-direction: column;
+        }
     }
