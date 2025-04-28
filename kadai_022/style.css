@@ -1,0 +1,79 @@
+/*h1、p、bodyのmarginを0に */
+body,h1,p{margin:0;}
+
+/* pとaの文字サイズを20pxに */
+p,a{font-size: 20px;}
+
+header{
+    margin-bottom: 20px;
+    background-color: rgb(244,79,79);
+    text-align: center;
+}
+
+h1{color: rgb(255,255,255);}
+
+main{padding:10px}
+
+#parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contents{
+    border: 3px solid rgb(238,204,204);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align:center;
+}
+
+.contents h2 {
+    font-size: 25px;
+    border-bottom: 3px dotted rgb(236, 122, 122);
+    text-align: center;
+    position: relative;
+}
+
+.contents h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+}
+
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+}
+
+.contents img {
+    margin: 10px 0;
+    width: 70%;
+}
+
+footer {
+    background-color: rgb(244, 79, 79);  /* 背景色を設定 */
+    text-align: center;  /* 中身を中央揃え */
+}
+footer a {
+    color: rgb(255, 255, 255);
+    }
+
+    footer a:visited {
+        color: rgb(193, 234, 251);  /* 訪問済みリンクの文字色を設定 */
+    }
+    
+    footer a:hover {
+        color: rgb(245, 178, 168);  /* マウスオーバー時の文字色を設定 */
+    }
+    @media screen and (max-width: 768px) {
+        /* 768px以下の場合 */
+    }
+    .contents h2 {
+        font-size: 30px;
+    }
+    .contents p {
+        font-size: 25px;
+    }
+    #parent {
+        flex-direction: column;
+    }
